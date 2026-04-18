@@ -115,13 +115,10 @@ const Dashboard = () => {
               {/* Main Dashboard Card */}
               <div className="bg-white rounded-2xl shadow-2xl overflow-hidden mt-20">
                 <img
-                  src="https://iili.io/Bgq7UB4.md.png"
-                  alt="Web Analytics Dashboard"
+                  src="https://iili.io/BgB7xta.md.png"
+                  alt="Web Platform Dashboard"
                   className="w-full h-auto"
                 />
-                <div className="p-6 text-center">
-                  <h3 className="text-2xl font-bold text-gray-800">Web Dashboard</h3>
-                </div>
               </div>
 
               {/* Status Card */}
