@@ -44,11 +44,12 @@ const Hero = () => {
         {/* Product Visualization */}
         <div className="mt-20">
           <div className="relative w-full max-w-2xl mx-auto aspect-[4/3] bg-gradient-to-br from-golden-hour/20 via-clay-blossom/20 to-mossy-grove/20 rounded-3xl overflow-hidden shadow-2xl">
-            <div className="absolute inset-0 flex items-center justify-center">
-              <div className="text-center">
-                <div className="text-8xl mb-4">🧦</div>
-                <p className="text-gray-500 font-medium">Smart Heat Socks</p>
-              </div>
+            <div className="absolute inset-0 flex items-center justify-center p-8">
+              <img
+                src="https://iili.io/Bgq7UB4.md.png"
+                alt="Smart Heat Socks Product"
+                className="w-full h-full object-contain"
+              />
             </div>
           </div>
         </div>
