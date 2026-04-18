@@ -76,11 +76,35 @@ const Dashboard = () => {
               {/* Chart Area */}
               <div className="bg-white p-6 rounded-2xl shadow-lg border border-gray-100">
                 <div className="text-sm font-semibold text-gray-700 mb-4">Temperature History</div>
-                <div className="h-40 bg-gradient-to-r from-golden-hour/10 via-clay-blossom/10 to-golden-hour/10 rounded-xl flex items-end justify-center relative overflow-hidden">
-                  <div className="absolute inset-0 flex items-center justify-center">
-                    <div className="text-6xl opacity-20">📈</div>
+                <div className="h-48 bg-gradient-to-r from-golden-hour/5 via-clay-blossom/5 to-golden-hour/5 rounded-xl relative">
+                  {/* Y-axis labels */}
+                  <div className="absolute left-0 top-0 h-full flex flex-col justify-between text-xs text-gray-400 pr-2">
+                    <span>42°</span>
+                    <span>40°</span>
+                    <span>38°</span>
+                    <span>36°</span>
                   </div>
-                  <div className="text-sm text-gray-500 mb-4">Live monitoring active</div>
+
+                  {/* Chart area */}
+                  <div className="ml-8 h-full flex items-end gap-1 px-4 pb-6">
+                    {/* Mock bar chart with varying heights */}
+                    {[65, 70, 68, 72, 75, 73, 78, 80, 77, 82, 85, 83, 88, 90, 87, 85, 83, 80, 78, 75].map((height, i) => (
+                      <div key={i} className="flex-1 flex flex-col justify-end">
+                        <div
+                          className="bg-gradient-to-t from-golden-hour to-clay-blossom rounded-t-sm transition-all duration-300 hover:opacity-80"
+                          style={{ height: `${height}%` }}
+                        ></div>
+                      </div>
+                    ))}
+                  </div>
+
+                  {/* X-axis labels */}
+                  <div className="absolute bottom-0 left-8 right-0 flex justify-between text-xs text-gray-400 px-4">
+                    <span>12:00</span>
+                    <span>12:15</span>
+                    <span>12:30</span>
+                    <span>12:45</span>
+                  </div>
                 </div>
               </div>
             </div>
