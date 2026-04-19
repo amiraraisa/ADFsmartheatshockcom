@@ -58,7 +58,7 @@ const Solution = () => {
           <div className="relative">
             <div className="relative bg-gradient-to-br from-golden-hour/30 via-clay-blossom/30 to-mossy-grove/30 rounded-3xl overflow-hidden shadow-2xl">
               <img
-                src="https://freeimage.host/i/BgVgV9e"
+                src="https://i.ibb.co.com/60smbzf1/Gemini-Generated-Image-kkh0oykkh0oykkh0.png"
                 alt="HeatWear Dashboard"
                 className="w-full h-auto"
               />
