@@ -11,7 +11,7 @@ const HowItWorks = () => {
     {
       number: '02',
       title: 'Connect Socks',
-      description: 'Pair your smart socks with the web platform via WiFi/Bluetooth',
+      description: 'Pair your smart socks via WiFi/Bluetooth',
       icon: '📱'
     },
     {

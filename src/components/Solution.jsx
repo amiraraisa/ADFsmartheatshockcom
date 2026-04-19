@@ -31,8 +31,7 @@ const Solution = () => {
           {/* Left side - Text content */}
           <div>
             <h2 className="text-4xl sm:text-5xl font-bold mb-6">
-              Smart Socks +<br />
-              <span className="gradient-text">Web Platform</span>
+              <span className="gradient-text">Smart Socks</span>
             </h2>
 
             <p className="text-xl text-gray-600 mb-10 leading-relaxed">

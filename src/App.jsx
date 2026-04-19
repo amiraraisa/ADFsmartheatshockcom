@@ -3,7 +3,6 @@ import Navbar from './components/Navbar'
 import Hero from './components/Hero'
 import Problem from './components/Problem'
 import Solution from './components/Solution'
-import Dashboard from './components/Dashboard'
 import Features from './components/Features'
 import HowItWorks from './components/HowItWorks'
 import Testimonials from './components/Testimonials'
@@ -27,7 +26,6 @@ function App() {
       <Hero />
       <Problem />
       <Solution />
-      <Dashboard />
       <Features />
       <HowItWorks />
       <Testimonials />
