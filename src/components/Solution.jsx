@@ -56,24 +56,12 @@ const Solution = () => {
 
           {/* Right side - Visual */}
           <div className="relative">
-            <div className="relative aspect-square bg-gradient-to-br from-golden-hour/30 via-clay-blossom/30 to-mossy-grove/30 rounded-3xl overflow-hidden shadow-2xl">
-              <div className="absolute inset-0 flex items-center justify-center">
-                <div className="text-center">
-                  <div className="text-9xl mb-4">📊</div>
-                  <p className="text-xl font-semibold text-gray-700">Web Dashboard</p>
-                </div>
-              </div>
-
-              {/* Floating cards */}
-              <div className="absolute top-8 right-8 bg-white p-4 rounded-xl shadow-lg">
-                <div className="text-sm text-gray-500">Temperature</div>
-                <div className="text-2xl font-bold text-golden-hour">38.5°C</div>
-              </div>
-
-              <div className="absolute bottom-8 left-8 bg-white p-4 rounded-xl shadow-lg">
-                <div className="text-sm text-gray-500">Status</div>
-                <div className="text-lg font-bold text-green-600">● Active</div>
-              </div>
+            <div className="relative bg-gradient-to-br from-golden-hour/30 via-clay-blossom/30 to-mossy-grove/30 rounded-3xl overflow-hidden shadow-2xl">
+              <img
+                src="https://freeimage.host/i/BgVgV9e"
+                alt="HeatWear Dashboard"
+                className="w-full h-auto"
+              />
             </div>
           </div>
         </div>
